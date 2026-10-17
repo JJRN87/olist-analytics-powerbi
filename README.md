@@ -30,7 +30,7 @@ La idea era ir más allá de montar gráficos: quería entender qué representa 
 - **Modelo de datos:** relaciones entre pedidos, artículos, clientes, productos, vendedores y valoraciones; además de un calendario para filtrar por fecha de compra.
 - **DAX:** medidas para ventas, pedidos distintos, ticket medio, porcentajes de retraso, días de entrega y valoraciones.
 - **Comprobaciones:** página adicional de pruebas para contrastar recuentos y revisar indicadores.
-- **Jira y Confluence:** documentación posterior del desarrollo y planificación de las mejoras pendientes. Es un proyecto individual, no un trabajo realizado dentro de un equipo Scrum.
+- **Jira y Confluence:** organización retrospectiva del desarrollo, seguimiento de un sprint real de cierre, documentación técnica y retrospectiva. Es una práctica individual, no una experiencia dentro de un equipo Scrum.
 
 ![Modelo de relaciones](capturas/05-modelo-datos.png)
 
@@ -45,6 +45,38 @@ La idea era ir más allá de montar gráficos: quería entender qué representa 
 | Registros de valoración adicionales | 551 |
 
 Encontré también ocho pedidos marcados como entregados sin fecha de entrega y 775 pedidos sin artículos asociados. No he eliminado estos registros automáticamente: algunos casos pueden tener una explicación válida.
+
+## Organización del proyecto: Jira, Confluence y Scrum
+
+También he utilizado este proyecto para practicar cómo organizar y documentar un desarrollo de datos, no solo cómo construir el informe.
+
+### Jira
+
+Organicé el trabajo en **3 épicas y 9 historias**. Las primeras funcionalidades de Power BI se documentaron después de construirlas; no voy a presentar ese trabajo como si hubiera seguido Scrum desde el principio. Para el cierre sí planifiqué un sprint con dos historias: revisar los indicadores y publicar el proyecto. Ambas quedaron terminadas y el sprint se cerró.
+
+Las evidencias y una explicación breve están en la [documentación de Jira](docs/jira/README.md).
+
+![Épicas terminadas en Jira](docs/jira/01-epicas.png)
+
+![Resumen final de Jira](docs/jira/02-resumen.png)
+
+![Historias del sprint de cierre](docs/jira/03-sprint.png)
+
+### Confluence
+
+Preparé **7 páginas** para explicar el origen de los datos, las transformaciones, el modelo, los indicadores, los problemas encontrados y la organización del trabajo. También documenté la revisión del sprint y una retrospectiva individual.
+
+Los espacios de Atlassian se mantienen privados, así que he exportado las páginas a PDF para que puedan consultarse desde aquí sin iniciar sesión:
+
+1. [Presentación del proyecto](docs/confluence/01-presentacion.pdf)
+2. [Datos y preparación](docs/confluence/02-datos-modelo.pdf)
+3. [Indicadores y dashboard](docs/confluence/03-dashboard.pdf)
+4. [Pruebas y problemas encontrados](docs/confluence/04-validacion.pdf)
+5. [Organización del trabajo](docs/confluence/05-organizacion.pdf)
+6. [Revisión del Sprint 1](docs/confluence/06-revision-sprint.pdf)
+7. [Retrospectiva del Sprint 1](docs/confluence/07-retrospectiva.pdf)
+
+Para próximos proyectos quiero preparar el backlog desde el principio y comprobar las métricas conforme avance, en lugar de dejar tantas revisiones para el final.
 
 ## Abrir el proyecto
 
