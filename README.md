@@ -4,6 +4,8 @@ Proyecto personal para practicar análisis de datos con un caso de comercio elec
 
 La idea era ir más allá de montar gráficos: quería entender qué representa cada dato, comprobar los cálculos y documentar el trabajo.
 
+**Accesos rápidos:** [Informe Power BI](powerbi/Olist_Analytics.pbix?raw=1) · [Documentación en PDF](docs/confluence/README.md) · [Jira y Scrum](docs/jira/README.md) · [Diccionario de métricas](docs/diccionario-metricas.md)
+
 ![Resumen de ventas](capturas/01-ventas.png)
 
 ## Qué incluye
@@ -30,7 +32,7 @@ La idea era ir más allá de montar gráficos: quería entender qué representa 
 - **Modelo de datos:** relaciones entre pedidos, artículos, clientes, productos, vendedores y valoraciones; además de un calendario para filtrar por fecha de compra.
 - **DAX:** medidas para ventas, pedidos distintos, ticket medio, porcentajes de retraso, días de entrega y valoraciones.
 - **Comprobaciones:** página adicional de pruebas para contrastar recuentos y revisar indicadores.
-- **Jira y Confluence:** organización retrospectiva del desarrollo, seguimiento de un sprint real de cierre, documentación técnica y retrospectiva. Es una práctica individual, no una experiencia dentro de un equipo Scrum.
+- **Jira y Confluence:** organización retrospectiva del desarrollo, seguimiento de un sprint de cierre, documentación técnica y retrospectiva. Es una práctica individual, no una experiencia dentro de un equipo Scrum.
 
 ![Modelo de relaciones](capturas/05-modelo-datos.png)
 
@@ -52,7 +54,7 @@ También he utilizado este proyecto para practicar cómo organizar y documentar 
 
 ### Jira
 
-Organicé el trabajo en **3 épicas y 9 historias**. Las primeras funcionalidades de Power BI se documentaron después de construirlas; no voy a presentar ese trabajo como si hubiera seguido Scrum desde el principio. Para el cierre sí planifiqué un sprint con dos historias: revisar los indicadores y publicar el proyecto. Ambas quedaron terminadas y el sprint se cerró.
+Organicé el trabajo en **3 épicas y 9 historias**. El desarrollo inicial de Power BI se documentó retrospectivamente. Para el cierre sí planifiqué un sprint con dos historias: revisar los indicadores y publicar el proyecto. Ambas quedaron terminadas y el sprint se cerró.
 
 Las evidencias y una explicación breve están en la [documentación de Jira](docs/jira/README.md).
 
@@ -62,11 +64,13 @@ Las evidencias y una explicación breve están en la [documentación de Jira](do
 
 ![Historias del sprint de cierre](docs/jira/03-sprint.png)
 
+*La captura muestra las dos historias en «Listo» antes de completar el sprint. La revisión y la retrospectiva recogen el cierre y el aprendizaje de esta entrega.*
+
 ### Confluence
 
 Preparé **7 páginas** para explicar el origen de los datos, las transformaciones, el modelo, los indicadores, los problemas encontrados y la organización del trabajo. También documenté la revisión del sprint y una retrospectiva individual.
 
-Los espacios de Atlassian se mantienen privados, así que he exportado las páginas a PDF para que puedan consultarse desde aquí sin iniciar sesión:
+Los espacios de Atlassian se mantienen privados, así que he exportado las páginas a PDF para que puedan consultarse desde aquí sin iniciar sesión en Atlassian. Están reunidas también en el [índice de documentación](docs/confluence/README.md):
 
 1. [Presentación del proyecto](docs/confluence/01-presentacion.pdf)
 2. [Datos y preparación](docs/confluence/02-datos-modelo.pdf)
